@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="18.602" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Approval Requests" name="Verify 0 items on the Approval Requests page" time="18.232">
+<system-out><![CDATA[
+Given the tester logs into the Salesforce application.......................passed
+When the tester opens the App Launcher......................................passed
+And the tester selects Approval Requests....................................passed
+Then the tester verifies they land on the Approval Requests page............passed
+And there is an "Items to Approve" header...................................passed
+And there are 0 items.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
